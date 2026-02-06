@@ -211,7 +211,7 @@ class VulkanDevice {
     bool ext_KHR_fragment_shader_barycentric = false;
 #if XE_PLATFORM_WIN32
     // VK_EXT_full_screen_exclusive (#256, Windows only)
-    bool ext_EXT_full_screen_exclusive = false;
+    bool ext_EXT_full_screen_exclusive = true;
 #endif
   };
 
